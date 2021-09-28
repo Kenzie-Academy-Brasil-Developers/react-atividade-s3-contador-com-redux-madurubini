@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #bde0fe;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #802392;
+}
+
+.Container {
+  border: 1px solid #ffafcc;
+  border-radius: 10px;
+  min-width: 40%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc8dd;
+}
+
+.Buttons {
+  padding: 5px;
+  margin: 1px;
+}
+
+button {
+  margin: 2px;
+  border: 1px solid #ffafcc;
+  background-color: #bde0fe;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 15px;
+  color: #802392;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+button :hover {
+  filter: brightness(0.9);
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #ffafcc;
+  width: 15%;
+  margin: 2%;
+  background-color: #bde0fe;
+  padding: 5px;
+}
